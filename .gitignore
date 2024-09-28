@@ -1,0 +1,10 @@
+#ignore this in github
+
+# environment variables
+.env
+
+# resume .docx
+resume/
+
+#Cache folders
+__pycache__/
