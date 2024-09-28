@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "job-hunt-assistant"
+version = "0.1.0"
+description = "tailor resume to job requirements using crewAI"
+authors = ["Shreyashi Ganguly <shreyashi.ganguly169@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.12"
+crewai = "^0.61.0"
+crewai_tools = "^0.12.1"
+unstructured = "^0.15.13"
+tools = "^0.1.9"
+python-dotenv = "^1.0.1"
+
+[tool.poetry.dev-dependencies]
+black = "^24.0"
+flake8 = "^7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,18 @@
+{
+  // settings for tests
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": [],
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      // tell ruff to sort imports
+      "source.organizeImports": "explicit"
+    }
+  },
+  "python.formatting.provider": "black",
+  // automatically format files on save
+  "editor.formatOnSave": true,
+  // use prettier wherever possible
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
